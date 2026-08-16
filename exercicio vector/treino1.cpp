@@ -10,7 +10,7 @@ int main(){
 
     do{
         cout << "digite o nome do produto ou digite fim para sair: ";
-        getline(cin, produto);
+        getline(cin, produto); // o que foi digitado aqui, fica guardado na lista, no caso, no vetor lista que puxa dados da variavel produto, linha 16
         
         if(produto != "fim"){
             lista.push_back(produto);
